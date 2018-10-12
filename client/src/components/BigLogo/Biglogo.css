@@ -1,0 +1,19 @@
+.BigLogo{
+    left: 650px;
+    position: absolute;
+    float: right;
+    height: 400px;
+    width: 480px;
+    top: 150px
+}
+@media only screen and (max-width: 600px) {
+    .BigLogo{
+        display: none;
+        visibility: hidden;
+    }
+}
+/* @media only screen and (max-width: 900px) {
+    .BigLogo{
+        left: 817px;
+    }  
+} */

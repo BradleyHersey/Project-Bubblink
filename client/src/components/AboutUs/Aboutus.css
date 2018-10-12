@@ -1,0 +1,34 @@
+.jumbotron{
+    font-family: 'Fredoka One', cursive;
+    background-color: transparent;
+    width: 30%;
+    height: 450px;
+    margin: 4% 6% 0% 10%;
+    border-style: double;
+    border-color:silver;
+    border-width: 8px;
+    border-radius: 10%;
+    text-shadow: -2px 0 silver, 0 2px silver, 2px 0 silver, 0 -2px silver;
+    
+
+}
+.BubblH1{
+    text-decoration: underline;
+    color: aquamarine;    
+    text-shadow: -2px 0 silver, 0 2px silver, 2px 0 silver, 0 -2px silver;
+    letter-spacing: 6px;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    .jumbotron {
+        width: 78%;
+        height: 49%;
+        margin: 5% 11% 0% 8%;
+        font-size: 15px;
+    }.BubblH1{
+        letter-spacing: 6px;
+       
+        font-size: 28px;
+    }
+
+}

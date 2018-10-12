@@ -1,0 +1,10 @@
+html,#root{
+    margin:0;
+    padding:0;
+    font-family: 'Fredoka One', cursive;
+    height:100%;
+}
+input,textarea{
+    font-family: 'Fredoka One', cursive;
+}
+.container{color:#cac8ee;display:flex;flex-direction:row;align-items:flex-start;height:100%;width:100%}
